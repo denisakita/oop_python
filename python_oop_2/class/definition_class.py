@@ -1,9 +1,11 @@
 """ Create a basic class"""
-class Book():
+
+
+class Book:
     def __init__(self, title, author, year):
-        self._title = title
-        self._author = author
-        self._year = year
+        self.title = title
+        self.author = author
+        self.year = year
 
 
 """ Create instances of the class"""
